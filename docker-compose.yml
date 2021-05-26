@@ -21,7 +21,7 @@ services:
     depends_on:
       - db
     build:
-      context: ./docker
+      context: ./.docker
       dockerfile: Dockerfile-wp
     volumes:
       - "./docker/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini"
