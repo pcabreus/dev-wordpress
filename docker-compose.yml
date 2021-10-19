@@ -22,9 +22,9 @@ services:
       - db
     build:
       context: ./.docker
-      dockerfile: ./.docker/Dockerfile
+      dockerfile: Dockerfile
     volumes:
-      - "./docker/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini"
+      - "./.docker/php.conf.ini:/usr/local/etc/php/conf.d/conf.ini"
       - "./app:/var/www/html"
     ports:
       - "127.0.0.1:8000:80"
