@@ -30,6 +30,7 @@ Start up with:
     3. Copy the content on `app/wp-content/themes` folder
     4. Create a commit with the new theme.
     5. [Optional] Remove the rest of the themes
+    6. Install the dev tool with `yarn` or `npm` inside the installed theme.
     
 ## Exporting the database
 
