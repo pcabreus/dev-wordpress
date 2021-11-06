@@ -23,6 +23,14 @@ Start up with:
 
     $ docker-compose up -d
     
+### Download the underscores theme
+
+    1. Go to https://underscores.me/. 
+    2. Download the theme with a custom name.
+    3. Copy the content on `app/wp-content/themes` folder
+    4. Create a commit with the new theme.
+    5. [Optional] Remove the rest of the themes
+    
 ## Exporting the database
 
 Export the database into a MySQL dump file from the db container:
